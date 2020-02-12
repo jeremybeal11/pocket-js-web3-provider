@@ -1,1 +1,11 @@
-module.exports = Object.assign(module.exports, require('./pocket-provider'), require('./transaction-signer'), require('@pokt-network/pocket-js'));
+"use strict";
+// created from 'create-ts-index'
+function __export(m) {
+    for (var p in m) if (!exports.hasOwnProperty(p)) exports[p] = m[p];
+}
+Object.defineProperty(exports, "__esModule", { value: true });
+__export(require("./pocket-provider"));
+__export(require("./transaction-signer"));
+__export(require("@pokt-network/pocket-js"));
+
+//# sourceMappingURL=index.js.map
